@@ -5,7 +5,7 @@
 
 react hooks[点击查看](https://reactjs.org/blog/2019/02/06/react-v16.8.0.html)。众所周知这是一个令人兴奋的api。如果你对它还持有怀疑的态度，强烈建议你看一下这个[文章](https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889)，介绍了react开发团队为什么会推出hooks。
 
-我们要做一个电影搜索的api，对应的电影搜索的api，用的是[OMDB api](https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889)。类似国内的豆瓣，但是豆瓣api现在不是很稳定了。
+我们要做一个电影搜索的api，对应的电影搜索的api，用的是[OMDB api](http://www.omdbapi.com/)。类似国内的豆瓣，但是豆瓣api现在不是很稳定了。
 
 在我们构建程序之前我们需要做一些事情：
 - node>6
@@ -26,8 +26,5 @@ npx create-react-app hookd
 - Movie.js 它将渲染每一部电影。电影对象将通过prop简单的传入。
 - Search.js 包含一个input表达和搜索按钮，包含一个重制参数的函数，还有通过props传入的搜索的完成的回调函数
 
-我们开始在`src`目录下创建一个新的文件夹`components`，用了存放我们的组件。将`App.js`文件移入文件夹。然后创建 `Header`组件，`Header.js`并将以下的代码放入：
-```jsx
 
-```
-
+多个useState如何组合在一起？useReducer就可以。对App.js进行改造
